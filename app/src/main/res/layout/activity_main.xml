@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/taille"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginBottom="584dp"
+        android:text="     "
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginBottom="460dp"
+        android:text="     "
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre taille (en m)"
+        android:textSize="26sp"
+        android:layout_marginBottom="600dp"
+        android:layout_marginHorizontal="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul IMG"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+      />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre poids (en kg)"
+        android:textSize="26sp"
+        android:layout_marginBottom="535dp"
+        android:layout_marginHorizontal="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/poids"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginBottom="528dp"
+        android:text="     "
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="476dp"
+        android:text="Votre age"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <RadioButton
+        android:id="@+id/femme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="372dp"
+        android:text="Femme"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/homme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginBottom="372dp"
+        android:text="Homme"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="388dp"
+        android:text="Calculer IMG"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="140dp"
+        android:text="Votre IMG est %"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="80dp"
+        android:text="Interpretation "
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/R1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="140dp"
+        android:text="..."
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/R2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="80dp"
+        android:text="..."
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
